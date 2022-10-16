@@ -1,2 +1,2 @@
 # Responsive-Web-Design-Projects
-these are the projects of the free code camp Responsive Web Design course
+these are the projects of the Free Code Camp Responsive Web Design course
