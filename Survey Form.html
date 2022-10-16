@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="Survey Form.css">
+  </head>
+  <body>
+      <div class="container">
+      <header class="header">
+        <h1 id="title" class="text-center">College Entry Form</h1>
+      <p id="description" class="text-center">Fill out this form to complete the registration to our College</p>
+      </header>
+      <form id="survey-form">
+        <div class="form-group">
+          <label for="name" id="name-label">Name</label>
+          <input id="name" type="text" required placeholder="Enter your name">   
+        </div>
+        <div class="form-group">
+          <label for="email" id="email-label">Email</label>
+          <input id="email" type="email" required placeholder="Enter your Email">
+        </div>
+        <div class="form-group">
+          <label for="number" id="number-label">Age</label>
+          <input id="number" type="number" required min="10" max="99" placeholder="Age">
+        </div>
+        <div class="form-group">
+          <p>Select your career</p>
+          <select id="dropdown" required>
+            <option value="computer engineering">Computer Engineering</option>
+            <option value="Advocacy">Advocacy</option>
+            <option value="Accounting">Accounting</option>
+            <option value="Architecture">Architecture</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <p> Would you like to receive emails with more information?</p>
+          <label><input type="radio" name="more-info" value="yes" checked >Yes</label>
+          <label><input type="radio" name="more-info" value="No">No</label>
+        </div>
+        <div class="form-group">
+          <p>what other activities would you like to do on campus?</p>
+          <label><input type="checkbox" value="Basketball">Basketball</label>
+          <label><input type="checkbox" value="Music classes">Music classes</label>
+          <label><input type="checkbox" value="Learn a language">Learn a language</label>
+          <label><input type="checkbox" value="Football">Football</label>
+          <label><input type="checkbox" value="Gymnasium">Gymnasium</label>
+        </div>
+        <div class="form-group">
+          <p>Any comments or sugestions?</p>
+          <textarea placeholder="Enter your comment here..."></textarea>
+        </div>
+        <div class="form-group">
+          <button type="submit" id="submit">Submit</button>
+        </div>
+      </form> 
+    </div>
+  </body>
+</html>
